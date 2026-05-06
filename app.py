@@ -13,5 +13,3 @@ name = st.text_input("Enter your name:", value="World")
 
 if st.button("Say hello"):
     st.success(f"Hello, {name}!")
-
-st.caption("Built with Python and Streamlit.")
